@@ -1,0 +1,500 @@
+@media screen and (max-width:991px){
+    /* Nav bar */
+    i{
+        color: rgb(193, 193, 193);
+        margin-right: 230px;
+        margin-left: 10px;
+        transition: all ease 0.5s;
+        font-size: 20px;
+    }
+    #toggle{
+        display: flex;
+        color: rgb(193, 193, 193);
+        margin:15px;
+        transition: all ease 0.5s;
+        font-size: 16px;
+}
+
+    #magnifying{
+    color: rgb(193, 193, 193);
+    margin:15px;
+    transition: all ease 0.5s;
+    font-size: 16px;
+}
+
+    #bag{
+    color: rgb(193, 193, 193);
+    margin:15px;
+    transition: all ease 0.5s;
+    font-size: 16px;
+}
+    ul{
+       display: none;
+        
+}
+
+    .navbar{
+        height: 48px;
+        background-color: #181818;
+        display: flex;
+        align-items: center;
+ }
+ /* massage */
+
+ .msg{
+    height: 72px;
+    background-color: #1d1d1f;
+    color: white;
+    font-size: 12px;
+}
+.msg p{
+    text-align:center;
+    line-height: 18px;
+    padding-right:10px;
+    padding-left: 10px;
+    letter-spacing: inherit;
+}
+
+.msg a{
+    color: #0066cc;
+}
+/* Responsive Hero Image */
+.hero-image{
+    background-image:url("hero_iphone15pro_resopnsive.jpg");
+    background-size: 730px;
+    height: 550px;
+}
+
+/* hero text */
+
+.hero-text{
+    padding-top: 30px; 
+}
+
+.hero-text h1{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.hero-text p{
+    font-size: 19px;
+}
+
+.hero-text a{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* sub image */
+
+.unit-wrraper{
+    background-image: url("hero_iphone15_2x.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: 750px;
+    position: absolute;
+    top: 650px;
+
+}
+
+.unit-wrraper h2{
+    color:rgb(0, 0, 0); 
+    padding-top: 80px; 
+    font-size: 30px;
+
+}
+
+.unit-wrraper p{
+    font-size: 19px;
+    color: black;
+    padding-bottom: 8px;
+}
+
+.unit-wrraper a{
+    font-size: 15px;
+}
+/* video clip */
+
+.iwatch{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+    
+}
+
+.background-clip{
+    position: absolute;
+    background-size: cover;
+    height: 800px;
+    width: 880px;
+    z-index: -1;
+    border: none;
+    
+}
+
+.content{
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.content p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content a{
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+
+}
+
+.content a:hover{
+    background-color: black;
+    color: white;
+}
+
+content #atwo{
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid white ;
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+    
+}
+.content img{
+   height: 45px;
+
+}
+
+.module-content{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    height: 569px;
+    width: 100%;
+    margin-bottom: -25px;
+}
+/* Macbook clip */
+.Slides {
+    height: 300px;
+    width: 100%;   
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.Slides video{
+    width: 500px;
+    margin-top: 50px;
+    position: relative;
+    right: 60px;
+}
+
+#macbook{
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 20px;
+    
+}
+.Slides p{
+    font-size: 19px;
+    text-align: center;
+    
+}
+
+.Slides a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: #2997ff;
+}
+/* ipad section */
+.watch-img{
+    display: none;
+}
+
+
+.ipad-resopnsive{
+    display: inline-block;
+    justify-content: center;
+    align-items:end;
+    height: 250px;
+}
+
+.ipad-resopnsive img{
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.ipad-content{
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.ipad-content p{
+    font-size: 17px;
+
+}
+
+.ipad-content a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+/* AirPod-resopnsive */
+
+.AirPod-resopnsive{
+    display: inline-block;
+    justify-content: center;
+    align-items:end;
+    height: 500px;
+    background-color: black;
+
+    
+}
+
+.AirPod-resopnsive img{
+    height: auto;
+    width: 100%;
+    margin-top: 140px;
+    image-resolution: 50px;
+    
+}
+
+.AirPod-content{
+    position: relative;
+    bottom: 460px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* background-color: black; */
+    line-height: 27px;
+}
+
+.AirPod-content p{
+    font-size: 17px;
+
+}
+
+.AirPod-content a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+
+/* Iphone Responsive */
+
+.iPhone-resopnsive{
+    display: inline-block;
+    justify-content: center;
+    align-items:end;
+    height: 400px;
+}
+
+.iPhone-resopnsive img{
+    height: 400px;
+    width: 100%;
+}
+
+#Tradein{
+    margin-top: 20px;
+}
+
+.iPhone-content{
+    position: relative;
+    bottom: 640px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* background-color: black; */
+    line-height: 25px;
+}
+
+.iPhone-content p{
+    font-size: 18px;
+
+}
+
+.iPhone-content a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+
+#Tradein-logo{
+    height: 25px;
+    width: auto;
+    margin-top: 180px;
+}
+/* HomePod mini */
+.HomePod-resopnsive{
+    display: inline-block;
+    justify-content: center;
+    align-items:end;
+    height: 250px;
+}
+
+.HomePod-resopnsive img{
+    height: 500px;
+    width: 101.5%;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.HomePod-content{
+    position: relative;
+    bottom: 640px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* background-color: black; */
+    line-height: 25px;
+}
+.HomePod-content p{
+    font-size: 17px;
+    margin-top: 2px;
+
+}
+
+.HomePod-content a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+
+/* media */
+
+.Media-resopnsive{
+    display: inline-block;
+    justify-content: center;
+    align-items:end;
+    height: 250px;
+}
+
+.Media-resopnsive img{
+    /* height: 500px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Media-content{
+    position: relative;
+    bottom: 340px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* background-color: black; */
+    line-height: 20px;
+}
+.Media-content p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.Media-content a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #2997ff;
+
+}
+/* movies responsive */
+.slides{
+    display: none;
+}
+.slides-responsive{
+    position: relative;
+    display: flex;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    scroll-behavior:smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    
+    
+}
+
+.responsive-wrapper{
+    position:relative;
+    width: 274px;
+    margin: 0 auto;
+}
+
+.responsive{
+    position: relative;
+    display: flex;
+    width: 274px;
+    height: 495px;
+    overflow:hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior:smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    
+    
+}
+
+.responsive img{
+    flex: 1 0 100%;
+    width: 274px;
+    height: 495px;
+    scroll-snap-align: start;
+    object-fit: cover;
+    
+}
+
+.responsive-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.responsive-nav a{
+   opacity: 0.75;
+   transition: opacity ease 250ms;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 253, 253);
+}
+
+.responsive-nav a:hover{
+    background-color: #03e9f4;
+    opacity: 5;
+}
+/* footer */
+.footer{
+   display: none;
+}
+}
